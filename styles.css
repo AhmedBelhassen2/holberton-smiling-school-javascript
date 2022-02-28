@@ -1,0 +1,142 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(./images/pic_1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+a:hover {
+    color: #C271FF !important;
+}
+
+figcaption p{
+    font-size: 10px;
+}
+.p-5 {
+    padding: 5rem !important;
+}
+
+p {
+    margin-top: none !important;
+    margin-bottom: 0 !important;
+}
+
+:root {
+    --font: 
+}
+.purple-bg {
+    background-color: #c271ff !important;
+    color: #ffffff !important;
+  }
+/* HOMEPAGE */
+
+.tagline {
+    color: #C271FF;
+}
+
+
+.schooled {
+    font-size: 4em;
+}
+
+.learn {
+    padding-top: 9em;
+}
+.quote {
+    position: relative;
+    margin-left: 22.5em!important;
+    bottom: 4rem;
+}
+.quote-image {
+    position: relative;
+    left: 12rem;
+    top: 3rem;
+}
+/* BUTTONS */
+
+.btn {
+    font-size: 10px !important;
+}
+.btn-danger {
+    background-color: #C271FF !important;
+    border: none !important;
+}
+.btn .btn-danger:hover .btn-danger:active {
+    opacity: 0.9 !important
+}
+.btn a {
+    color: white !important;
+}
+
+/* PRICING */
+
+.what {
+    font-size: 2em;
+}
+
+/* VIDEO TUTORIALS */
+
+.lc {
+    margin-right: 6.5rem !important;
+    margin-left: 8rem !important;
+}
+
+/* FOOTER
+======== */
+
+.social-icons ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0 !important;
+}
+.social-icon {
+    font-size: 25px;
+}
+/* PRICING GRID
+======= */
+
+.t_h {
+    width: 33%;
+}
+th {
+    font-size: 12px !important;
+}
+
+/* COURSES */
+ 
+.dont {
+    font-size: 2em !important;
+    padding-left: 45vh;
+    padding-right: 45vh;
+}
+input::placeholder {
+    color: white !important;
+    opacity: 0.5 !important;
+}
+#latest-videos-cards {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 2rem;
+}
+/* LOADER */
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #C271FF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
