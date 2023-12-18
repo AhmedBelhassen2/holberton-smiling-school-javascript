@@ -11,6 +11,11 @@ Here the final result on both desktop and mobile versions:
 
 alt text
 
+
+
+
+
+hh
 This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
 Prototype: Hompeage
